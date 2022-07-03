@@ -184,6 +184,7 @@ namespace Adventure2D
                 {
                     var enemy = hit.collider.GetComponent<EnemyController>();
                     enemy.TakeDamage(_damage);
+                    Debug.Log("Bla blabla");
                 }
             }
         }
